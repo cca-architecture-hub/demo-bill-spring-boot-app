@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-bill-spring-boot-app
+  title: demo-bill-spring-boot-app
+  annotations:
+    circleci.com/project-slug: github/cca-architecture-hub/demo-bill-spring-boot-app
+    github.com/project-slug: cca-architecture-hub/demo-bill-spring-boot-app
+    sonarqube.org/project-key: cca-architecture-hub_demo-bill-spring-boot-app
+  tags:
+    - spring-boot
+    - java
+    - maven
+    - circleci
+    - renovate
+    - sonarqube
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
